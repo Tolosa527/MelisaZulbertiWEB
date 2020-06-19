@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Melisa Zulberti</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="static/images/avatar.png" alt="avatar de melisa" /></a>
+					<h1>
+						<strong>Melisa Zulberti </strong>(Tandil, 1989) es bailarina
+						de danza contemporánea, artista visual,
+						creadora de instalaciones performáticas
+						que busca en sus proyectos interconexio-
+						nes entre varios lenguajes.
+					</h1>
+				</div>
+			</header>
+
+			<div id="main">
+				{% if message %}
+					<p id="message-success">{{message}}</p>
+				{% endif %}
+				<section>
+					{% block main %}
+					{% endblock %}
+				</section>
+				<section>
+					{% block text %}
+					{% endblock %}
+				</section>
+
+			</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-vimeo"><span class="label">Vimeo</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#form" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>web developer - Matias Zulberti - <a href="https://www.linkedin.com/in/matiaszulberti/"> Linkedin </a></li>
+						</ul>
+					</div>
+				</footer>
+
+			<!-- Scripts -->
+				<script src="static/assets/js/jquery.min.js"></script>
+				<script src="static/assets/js/jquery.poptrox.min.js"></script>
+				<script src="static/assets/js/browser.min.js"></script>
+				<script src="static/assets/js/breakpoints.min.js"></script>
+				<script src="static/assets/js/util.js"></script>
+				<script src="static/assets/js/main.js"></script>
+
+		</body>
+	</html>
