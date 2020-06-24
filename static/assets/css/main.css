@@ -2596,7 +2596,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								100%;
+		background-size: auto,								      150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2625,6 +2625,7 @@ input, select, textarea {
 
 		#header strong, #header b {
 			color: #ffffff;
+			font-weight: bolder;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2632,7 +2633,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.8);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2827,7 +2828,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		.poptrox-popup .nav-next,
+		/* .poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
@@ -2842,8 +2843,8 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 50%;
-		}
-
+		} */
+/*
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
 				-moz-osx-font-smoothing: grayscale;
@@ -2887,7 +2888,7 @@ input, select, textarea {
 			.poptrox-popup .nav-previous:before {
 				content: '\f104';
 				left: 0;
-			}
+			} */
 
 		.poptrox-popup .closer {
 			text-decoration: none;
@@ -2940,7 +2941,7 @@ input, select, textarea {
 				width: 1.75em;
 			}
 
-		.poptrox-popup:hover .nav-next,
+		/* .poptrox-popup:hover .nav-next,
 		.poptrox-popup:hover .nav-previous {
 			opacity: 0.5;
 		}
@@ -2948,7 +2949,7 @@ input, select, textarea {
 			.poptrox-popup:hover .nav-next:hover,
 			.poptrox-popup:hover .nav-previous:hover {
 				opacity: 1.0;
-			}
+			} */
 
 		.poptrox-popup:hover .closer {
 			opacity: 0.5;
@@ -3239,7 +3240,7 @@ input, select, textarea {
   border: 2px solid #efefef;
   border-radius: 10%;
   color: #efefef;
-  margin-top: 8px;
+  margin-top: 2em;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -3250,4 +3251,7 @@ input, select, textarea {
 .button-submit:hover {
   border: 2px solid #49bf9d; /* Green */
   color: #49bf9d;
+}
+#three{
+	margin-top: 5em;
 }
