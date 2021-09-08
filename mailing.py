@@ -18,7 +18,7 @@ def send_email(*args, **kwargs):
 
     try:
         server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        server.login("matiaszulberti@gmail.com", "Txalaka200")
+        server.login("matiaszulberti@gmail.com", "########")
         server.send_message(msg)
         server.quit()
     except Exception as e:
